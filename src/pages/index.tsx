@@ -2,9 +2,9 @@
 import React from "react"
 import { PageProps, Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Bio from "../components/bio"
 import { rhythm } from "../utils/typography"
 
 type Data = {
@@ -37,7 +37,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
+      <SEO title="CK Dev Blog" />
       <Bio />
       {posts.map(post => {
         const title = post.elements.title.value
