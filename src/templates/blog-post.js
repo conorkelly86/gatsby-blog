@@ -22,9 +22,11 @@ class BlogPostTemplate extends React.Component {
         <header>
           <h1
             style={{
-              marginTop: rhythm(1),
-              marginBottom: 0,
-              color: '#5261ac',
+              fontFamily: 'Lato',
+        fontStyle: 'normal',
+        fontWeight: 'bold',
+        fontSize: '24px',
+        color: '#333333',
             }}
           >
             {post.elements.title.value}
